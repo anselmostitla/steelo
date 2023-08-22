@@ -1,0 +1,22 @@
+[
+  {
+    "name": "About",
+    "link": "about"
+  },
+  {
+    "name": "Contact Us",
+    "link": "contact-us"
+  },
+  {
+    "name": "Sign Up",
+    "link": "sign-up"
+  },
+  {
+    "name": "Sign In",
+    "link": "sign-in"
+  },
+  {
+    "name": "Subscription",
+    "link": "subscription"
+  }
+]

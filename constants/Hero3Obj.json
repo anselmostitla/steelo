@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Azuki",
+    "url": "/assets/b1.png",
+    "border": false
+  },
+  {
+    "name": "Pepe Zuki",
+    "url": "/assets/b2.png",
+    "border": false
+  },
+  {
+    "name": "Baby Doge Army",
+    "url": "/assets/b3.png",
+    "border": false
+  },
+  {
+    "name": "Apes Toguether Strong",
+    "url": "/assets/b4.png",
+    "border": false
+  },
+  {
+    "name": "Crypto Skull",
+    "url": "/assets/b5.png",
+    "border": false
+  },
+  {
+    "name": "Loud Punx",
+    "url": "/assets/b6.png",
+    "border": false
+  }
+]

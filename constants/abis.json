@@ -1,0 +1,14 @@
+{
+  "mumbai":{
+    "NFTMarketplace":{
+      []
+    }
+  }
+}
+
+But this kind of structure will require to save in
+mongoDb the network.
+
+user: 0xjd73...j72
+network: "mumbai"
+
