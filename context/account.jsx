@@ -4,7 +4,7 @@ import { ethers } from 'ethers'
 import NFTMarketplace from '../constants/NFTMarketplace.json'
 
 const AccountContext = createContext()
-export const useAccount = () => {
+export const UseAccount = () => {
   return useContext(AccountContext)
 }
 

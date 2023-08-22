@@ -11,12 +11,12 @@ import Profile from "./Profile"
 import SideBar from "./SideBar"
 
 import { useEffect, useState } from "react"
-import { useAccount } from "@/context/account"
+import { UseAccount } from "@/context/account"
 import Link from 'next/link'
 
 
 const NavBar = () => {
-  const {account, network, connectWallet} = useAccount()
+  const {account, network, connectWallet} = UseAccount()
 
   const [discover, setDiscover] = useState(false);
   const [help, setHelp] = useState(false);
