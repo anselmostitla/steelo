@@ -31,7 +31,7 @@ const Hero2 = () => {
       <div className="flex flex-col space-y-5">
         {Hero2Obj.map((el,i) => (
           i == currentImage &&
-          <div className="w-full bg-pink-100 h-96 flex justify-between items-center overflow-hidden">
+          <div key={i} className="w-full bg-pink-100 h-96 flex justify-between items-center overflow-hidden">
             <div onClick={() => changeElement("left")} className="z-10 text-white">
               <MdKeyboardArrowLeft className="w-20 h-20"/>
             </div>

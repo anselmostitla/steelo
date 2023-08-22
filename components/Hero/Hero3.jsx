@@ -71,7 +71,7 @@ const Hero3 = () => {
       <div className='flex flex-wrap w-1/3 m-1 '>
         {images.map((el,i) => (
           (i>=2 && i<=5) &&
-          <div className={`w-1/2 h-1/2  ${el.border? 'border-yellow-600 border-2': 'border'} z-10`} onMouseOver={() => doEdge(i)} onMouseLeave={() => unDoEdge(i)}>
+          <div key={i} className={`w-1/2 h-1/2  ${el.border? 'border-yellow-600 border-2': 'border'} z-10`} onMouseOver={() => doEdge(i)} onMouseLeave={() => unDoEdge(i)}>
             <div className='w-full h-2/3 flex items-center overflow-hidden'>
               <Image src={el.url} width={400} height={400} alt={el.name}/>
             </div>    
