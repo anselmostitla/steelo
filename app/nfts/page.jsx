@@ -1,10 +1,10 @@
 'use client'
 import NavBar from '@/components/Navbar/NavBar';
-import { useAccount } from '@/context/account';
+import { UseAccount } from '@/context/account';
 import React, { useEffect, useState } from 'react';
 
 const page = () => {
-  const { account, network, contractProvider, contractSigner, connectWallet, isWalletConnected, getContract } = useAccount()
+  const { account, network, contractProvider, contractSigner, connectWallet, isWalletConnected, getContract } = UseAccount()
   const [runCounter, setRunCounter] = useState(0);
   const [uris, setUris] = useState([]);
   const [items, setItems] = useState();

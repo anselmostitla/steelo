@@ -1,10 +1,10 @@
 'use client'
 import React, { useState } from 'react';
 import NavBar from '@/components/Navbar/NavBar';
-import { useAccount } from '@/context/account';
+import { UseAccount } from '@/context/account';
 
 const page = () => {
-  const { account, network, contractProvider, contractSigner, connectWallet, isWalletConnected, getContract } = useAccount()
+  const { account, network, contractProvider, contractSigner, connectWallet, isWalletConnected, getContract } = UseAccount()
   console.log("account: ", account)
   console.log("network: ", network)
   console.log("contractProvider: ", contractProvider)
