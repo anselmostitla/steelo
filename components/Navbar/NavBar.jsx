@@ -15,7 +15,7 @@ import Profile from "./Profile";
 import SideBar from "./SideBar";
 
 import { useEffect, useState } from "react";
-import { AccountContext } from "@/context/Account";
+import { AccountContext } from "@/context/account";
 import Link from "next/link";
 
 const NavBar = () => {

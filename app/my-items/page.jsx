@@ -1,6 +1,6 @@
 "use client";
 import NavBar from "@/components/Navbar/NavBar";
-import { AccountContext } from "@/context/Account";
+import { AccountContext } from "@/context/account";
 import React, { useEffect, useState } from "react";
 import { BigNumber } from "ethers";
 import Image from "next/image";

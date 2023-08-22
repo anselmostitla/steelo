@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import NavBar from "@/components/Navbar/NavBar";
-import { AccountContext } from "@/context/Account";
+import { AccountContext } from "@/context/account";
 
 const page = () => {
   const {
