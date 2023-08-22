@@ -3,9 +3,9 @@ import React, {useState, useEffect, createContext, useContext } from 'react';
 import { ethers } from 'ethers'
 import NFTMarketplace from '../constants/NFTMarketplace.json'
 
-const AccountContext = createContext()
-export const UseAccount = () => {
-  return useContext(AccountContext)
+const AccountContextInstance = createContext()
+export const AccountContext = () => {
+  return useContext(AccountContextInstance)
 }
 
 const AccountContextProvider = ({children}) => {
@@ -82,9 +82,9 @@ const AccountContextProvider = ({children}) => {
   const data = {account, network, contractProvider, contractSigner, connectWallet, isWalletConnected, getContract}
 
   return (
-    <AccountContext.Provider value = { data }>
+    <AccountContextInstance.Provider value = { data }>
       {children}
-    </AccountContext.Provider>
+    </AccountContextInstance.Provider>
   );
 }
 
