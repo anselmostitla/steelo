@@ -14,7 +14,7 @@ import Notification from "./Notification";
 import Profile from "./Profile";
 import SideBar from "./SideBar";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { AccountContext } from "@/context/account";
 import Link from "next/link";
 

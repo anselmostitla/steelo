@@ -7,13 +7,7 @@ import Image from "next/image";
 
 const page = () => {
   const {
-    account,
-    network,
     contractProvider,
-    contractSigner,
-    connectWallet,
-    isWalletConnected,
-    getContract,
   } = AccountContext();
   const [currentId, setCurrentId] = useState();
   const [stepTime, setStepTime] = useState(500);

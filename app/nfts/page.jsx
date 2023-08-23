@@ -5,13 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const page = () => {
   const {
-    account,
-    network,
     contractProvider,
-    contractSigner,
-    connectWallet,
-    isWalletConnected,
-    getContract,
   } = AccountContext();
   const [runCounter, setRunCounter] = useState(0);
   const [uris, setUris] = useState([]);

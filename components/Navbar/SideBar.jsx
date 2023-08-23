@@ -1,11 +1,9 @@
 import { GrClose } from 'react-icons/gr'
-import { TiSocialFacebook, TiSocialLinkedin, TiSocialTwitter, TiSocialYoutube, TiSocialInstagram, TiArrowSortedDown, TiArrowSortedUp } from 'react-icons/ti'
+import { TiSocialFacebook, TiSocialLinkedin, TiSocialTwitter, TiSocialYoutube, TiSocialInstagram, TiArrowSortedDown } from 'react-icons/ti'
 import { MdMusicNote } from 'react-icons/md'
-import Button from '../Button'
 import { useState } from 'react'
 import discover from '../../constants/discover.json'
 import help from '../../constants/help.json'
-import HelpCenter from './HelpCenter'
 import { useRouter} from 'next/navigation'
 import Link from 'next/link'
 

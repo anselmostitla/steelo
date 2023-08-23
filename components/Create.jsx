@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import NavBar from "@/components/Navbar/NavBar";
 import { AccountContext } from "@/context/account";
 
-const page = () => {
+const Create = () => {
   const {
     contractSigner,
   } = AccountContext();
@@ -62,4 +62,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Create;

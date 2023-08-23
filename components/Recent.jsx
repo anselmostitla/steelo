@@ -7,7 +7,6 @@ import Image from 'next/image';
 const Recent = () => {
 
   const [arrow, setArrow] = useState(false);
-  // const [k, setK] = useState(0);
   const [posicion, setPosicion] = useState(0);
   const [numElements, setNumElements] = useState(4);
   const [filtered, setFiltered] = useState(statistics.filter(el => el.spotlight == true));

@@ -1,8 +1,5 @@
 import { TiSocialFacebook, TiSocialLinkedin, TiSocialTwitter, TiSocialYoutube, TiSocialInstagram, TiArrowSortedDown, TiArrowSortedUp } from 'react-icons/ti'
-import Image from 'next/image'
 import { MdSend} from 'react-icons/md'
-import Discover from './Navbar/Discover'
-import HelpCenter from './Navbar/HelpCenter'
 import { MdMusicNote } from 'react-icons/md'
 import discover from '../constants/discover.json'
 import help from '../constants/help.json'
