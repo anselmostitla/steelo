@@ -1,5 +1,5 @@
 'use client'
-import Create from "@/components/Create";
+import Create from '../../components/Create'
 
 
 const page = () => {
